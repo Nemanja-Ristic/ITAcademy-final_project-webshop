@@ -1,0 +1,31 @@
+{% extends 'store/main.html' %}
+{% block content %}
+<h1>Registracija</h1>
+<form action="{% url 'register' %}" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="form_field">
+        <label for="first_name">Ime:</label>
+        <input id="first_name" name="first_name" type="text">
+    </div>
+    <div class="form_field">
+        <label for="last_name">Prezime:</label>
+        <input id="last_name" name="last_name" type="text">
+    </div>
+    <div class="form_field">
+        <label for="username">Korisničko ime:</label>
+        <input id="username" name="username" type="text">
+    </div>
+    <div class="form_field">
+        <label for="password">Lozinka:</label>
+        <input id="password" name="password" type="password">
+    </div>
+    <div>
+        <button class="form_button" type="submit">Registruj se</button>
+    </div>
+
+</form>
+
+
+
+{% endblock  %}
+

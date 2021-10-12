@@ -1,0 +1,20 @@
+{% extends "store/main.html" %}
+{% block content %}
+    <h1>Prijava</h1>
+    <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        <div class="form_field">
+            <label for="username">Korisničko ime:</label>
+            <input id="username" name="username" type="text" />
+        </div>
+        <div class="form_field">
+            <label for="password">Lozinka</label>
+            <input id="password" name="password" type="password" />
+        </div>
+        <div>
+            <button id="form_button" type="submit">Prijavi se</button>
+        </div>
+    </form>
+    <p><b>Nemate nalog?</b> 
+    <a href="{% url 'register' %}">Registruj se</a></p>
+{% endblock %}
