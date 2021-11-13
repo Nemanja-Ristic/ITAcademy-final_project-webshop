@@ -1,8 +1,8 @@
 # ITAcademy-final_project-webshop
 
-Funkcionalan **webshop**, koji omogućava kupcu da doda ili izbriše proizvod iz korpe. Kupci koji nemaju nalog mogu da kreiraju novi nalog. Svaki artikal proizvoda ima dugme za *dodaj u korpu i pogledaj proizvod*, klikom na pogledaj dugme, kupac detaljno može da vidi opis svakog proizvoda.
+Functional **webshop**, which allows the customer to add or delete a product from the cart. Customers who do not have an account can create a new account. Each product item has a button to *add to cart and view the product*, by clicking on the view button, the customer can see a detailed description of each product.
 
-U **admin** delu webshop-a, admin ima pravo da dodaje nove proizvode, briše, menja cenu, opis i fotografiju. Ispod su pojedine slike webshop-a kako on izgleda:
+In the **admin** part of the webshop, admin has the right to add new products, delete, change the price, description and photo. Below are some pictures of the webshop as it looks:
 
 ![Alt za sliku](https://i.postimg.cc/jjjpZ7wD/2pocetna.png)
 
@@ -12,13 +12,13 @@ U **admin** delu webshop-a, admin ima pravo da dodaje nove proizvode, briše, me
 
 ![Alt za sliku](https://i.postimg.cc/BbwLPDK2/Inked5podaci-za-dostavu-LI.jpg)
 
-Za *pokretanje* webshop-a  koristio sam **Django framework**.
+I used **Django Framework** to *start* a web store.
 
-Od biblioteka sam koristio:
+From libraries I used:
 
 1. Datetime, 
 2. Json,
 3. Hashlib,
 4. Binascii,
 5. Os. 
-    * Za Navbar sam koristio css i javascript: bootstrap [link](https://getbootstrap.com/), a za vizuelnli prikaz NavBar-a: [link](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content)
+    * For Navbar I used css and JavaScript: bootstrap [link](https://getbootstrap.com/), and for a visual display of the NavBar: [link](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content)
